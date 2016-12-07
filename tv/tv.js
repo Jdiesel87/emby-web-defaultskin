@@ -170,7 +170,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                 itemsContainer: page.querySelector('.contentScrollSlider'),
                 getItemsMethod: function (startIndex, limit) {
                     return apiClient.getItems(apiClient.getCurrentUserId(), {
-                        EnableImageTypes: "Banner,Thumb",
+                        EnableImageTypes: "Backdrop,Thumb",
                         StartIndex: startIndex,
                         Limit: limit,
                         ParentId: pageParams.parentid,
@@ -194,9 +194,8 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                     }
                 },
                 cardOptions: {
-                    shape: 'banner',
-                    rows: 5,
-                    preferBanner: true,
+                    shape: 'backdrop',
+                    rows: 3,
                     scalable: false
                 }
             });
