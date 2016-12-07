@@ -14,7 +14,7 @@
     height: 145px !important;
 }
 
-.horizontalPageContent .bannerCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .bannerCard .cardImageContainer {
+.horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
     width: 196px !important;
     height: 45px !important;
 }
@@ -38,7 +38,12 @@
         width: 147px !important;
         height: 220px !important;
     }
-
+    
+    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
+        width: 300px !important;
+        height: 50px !important;
+    }
+    
     .wideSpotlightCard .cardImageContainer {
         height: 295px !important;
     }
@@ -60,7 +65,7 @@
         height: 340px !important;
     }
     
-    .horizontalPageContent .bannerCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .bannerCard .cardImageContainer {
+    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
         width: 600px !important;
         height: 100px !important;
     }
