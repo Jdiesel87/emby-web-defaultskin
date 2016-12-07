@@ -480,6 +480,7 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
             options.widths = {
                 portrait: 340,
                 thumb: 500,
+                banner: 700,
                 square: 340
             };
             return options;
