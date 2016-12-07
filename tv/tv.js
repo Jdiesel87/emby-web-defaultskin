@@ -170,7 +170,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                 itemsContainer: page.querySelector('.contentScrollSlider'),
                 getItemsMethod: function (startIndex, limit) {
                     return apiClient.getItems(apiClient.getCurrentUserId(), {
-                        EnableImageTypes: "Banner,Backdrop,Thumb",
+                        EnableImageTypes: "Banner,Thumb",
                         StartIndex: startIndex,
                         Limit: limit,
                         ParentId: pageParams.parentid,
