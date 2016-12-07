@@ -14,9 +14,8 @@
     height: 145px !important;
 }
 
-.horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
-    width: 196px !important;
-    height: 20px !important;
+.horizontalPageContent .wideCard .cardImageContainer, .homePageContent .wideCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
+    height: 40px !important;
 }
 
 .wideSpotlightCard .cardImageContainer {
@@ -39,9 +38,8 @@
         height: 220px !important;
     }
     
-    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
-        width: 400px !important;
-        height: 50px !important;
+    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .wideCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
+        height: 80px !important;
     }
     
     .wideSpotlightCard .cardImageContainer {
@@ -65,9 +63,8 @@
         height: 340px !important;
     }
     
-    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
-        width: 800px !important;
-        height: 100px !important;
+    .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .wideCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
+        height: 140px !important;
     }
 
     .wideSpotlightCard .cardImageContainer {
