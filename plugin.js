@@ -17,7 +17,7 @@ define(['playbackManager', 'pluginManager', 'browser', 'connectionManager', 'eve
 
         var self = this;
 
-        self.name = 'Jdiesel87';
+        self.name = 'jdiesel87';
         self.type = 'skin';
         self.id = 'jdiesel87';
 
