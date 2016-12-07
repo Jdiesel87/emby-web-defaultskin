@@ -105,6 +105,14 @@ define(['itemContextMenu', 'loading', './../skininfo', 'datetime', 'playbackMana
                     tag: item.ImageTags.Thumb
                 });
             }
+            else if (imageTags.Banner) {
+
+                url = apiClient.getScaledImageUrl(item.Id, {
+                    type: "Banner",
+                    width: imageWidth,
+                    tag: item.ImageTags.Banner
+                });
+            }
             else if (imageTags.Disc) {
 
                 url = apiClient.getScaledImageUrl(item.Id, {
