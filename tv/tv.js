@@ -194,7 +194,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                     }
                 },
                 cardOptions: {
-                    shape: 'backdrop',
+                    shape: 'auto',
                     height: 100,
                     rows: 3,
                     preferBanner: true,
