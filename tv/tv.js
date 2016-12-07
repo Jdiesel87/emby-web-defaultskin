@@ -145,7 +145,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                 },
                 autoFocus: autoFocus,
                 cardOptions: {
-                    shape: 'wide',
+                    shape: 'backdrop',
                     rows: 3,
                     preferThumb: true,
                     indexBy: 'PremiereDate',
@@ -194,8 +194,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                     }
                 },
                 cardOptions: {
-                    shape: 'backdrop',
-                    height: 300,
+                    shape: 'wide',
                     rows: 3,
                     preferBanner: true,
                     scalable: false
