@@ -178,7 +178,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                         Recursive: true,
                         SortBy: "SortName",
                         ImageTypeLimit: 1,
-                        Fields: "PrimaryImageAspectRatio,SortName"
+                        Fields: "BannerImageAspectRatio,SortName"
                     });
                 },
                 listCountElement: page.querySelector('.listCount'),
