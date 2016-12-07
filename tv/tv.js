@@ -134,7 +134,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                 itemsContainer: page.querySelector('.contentScrollSlider'),
                 getItemsMethod: function (startIndex, limit) {
                     return apiClient.getUpcomingEpisodes({
-                        EnableImageTypes: "Primary,Backdrop,Thumb,Banner",
+                        EnableImageTypes: "Primary,Backdrop,Thumb",
                         StartIndex: startIndex,
                         Limit: Math.min(limit, 60),
                         ParentId: pageParams.parentid,
@@ -170,6 +170,7 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                 itemsContainer: page.querySelector('.contentScrollSlider'),
                 getItemsMethod: function (startIndex, limit) {
                     return apiClient.getItems(apiClient.getCurrentUserId(), {
+                        EnableImageTypes: "Banner,Backdrop,Thumb",
                         StartIndex: startIndex,
                         Limit: limit,
                         ParentId: pageParams.parentid,
