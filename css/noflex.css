@@ -16,7 +16,7 @@
 
 .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
     width: 196px !important;
-    height: 45px !important;
+    height: 20px !important;
 }
 
 .wideSpotlightCard .cardImageContainer {
@@ -40,7 +40,7 @@
     }
     
     .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
-        width: 300px !important;
+        width: 400px !important;
         height: 50px !important;
     }
     
@@ -66,7 +66,7 @@
     }
     
     .horizontalPageContent .wideCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .wideCard .cardImageContainer {
-        width: 600px !important;
+        width: 800px !important;
         height: 100px !important;
     }
 
