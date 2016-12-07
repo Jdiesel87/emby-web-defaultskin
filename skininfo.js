@@ -3,6 +3,6 @@ define([], function () {
 
     return {
         id: 'jdiesel87',
-        name: 'Jdiesel87'
+        name: 'jdiesel87'
     };
 });
