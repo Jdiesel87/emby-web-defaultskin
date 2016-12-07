@@ -194,10 +194,10 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                     }
                 },
                 cardOptions: {
-                    shape: 'autoVertical',
+                    shape: 'auto',
                     rows: 3,
                     preferBanner: true,
-                    scalable: false
+                    scalable: true
                 }
             });
 
