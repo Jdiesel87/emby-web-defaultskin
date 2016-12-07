@@ -194,8 +194,8 @@ define(['connectionManager', 'loading', './../skininfo', 'alphaPicker', './../co
                     }
                 },
                 cardOptions: {
-                    shape: 'thumb',
-                    rows: 2,
+                    shape: 'backdrop',
+                    rows: 3,
                     scalable: false
                 }
             });
