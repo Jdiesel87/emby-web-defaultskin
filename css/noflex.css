@@ -14,6 +14,11 @@
     height: 145px !important;
 }
 
+.horizontalPageContent .bannerCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .bannerCard .cardImageContainer {
+    width: 196px !important;
+    height: 45px !important;
+}
+
 .wideSpotlightCard .cardImageContainer {
     height: 195px !important;
 }
@@ -53,6 +58,11 @@
     .horizontalPageContent .portraitCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .portraitCard .cardImageContainer {
         width: 227px !important;
         height: 340px !important;
+    }
+    
+    .horizontalPageContent .bannerCard .cardImageContainer, .homePageContent .portraitCard .cardImageContainer, .listPageContent .bannerCard .cardImageContainer {
+        width: 600px !important;
+        height: 100px !important;
     }
 
     .wideSpotlightCard .cardImageContainer {
